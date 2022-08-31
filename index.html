@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="css/all.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/indexstyle.css" rel="stylesheet" />
+</head>
+
+<body class="main-color">
+
+    <div id="signinBox" class="d-block vh-100 main-color py-5">
+        <div class="w-60 main-color m-auto p-5 text-center mb-3 box-shad">
+            <h1 class="">Smart Login System</h1>
+            <input id="signinInputEmail" type="text" class="form-control my-3 " placeholder="Enter Your Email">
+            <input id="signinInputPassword" type="password" class="form-control my-3 " placeholder="Enter Your Password">
+            <p class="d-block" id="regexAlert1"></p>
+            <button id="signinRegistBtn" class="form-control main-color mt-4 mb-2">Login</button>
+            <div class="d-flex justify-content-center  ">
+            <p class="text-light">Don’t have an account?</p>
+            <a id="signinRegistLink" class="text-light pl-2">Sign Up</a>
+            </div>
+        </div>
+    </div>
+  
+     <div id="registBox" class="vh-100 main-color py-5 d-none">
+        <div class="w-60 main-color m-auto p-5 text-center mb-3 box-shad">
+            <h1 class="">Smart Login System</h1>
+            <input id="registInputName" type="text" class="form-control my-3 " placeholder="Enter Your Name">
+            <input id="registInputEmail" type="text" class="form-control my-3 " placeholder="Enter Your Email">
+            <input id="registInputPassword" type="password" class="form-control my-3 " placeholder="Enter Password">
+            <p class="d-block" id="regexAlert"></p>
+            <button id="registSingupBtn" class="form-control main-color mt-4 mb-2">Sing UP</button>
+            <div class="d-flex justify-content-center  ">
+            <p class="text-light ">You have an account?</p>
+            <a id="registSigninLink"  class="text-light pl-2">Signin</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="indexBox" class="vh-100 main-color py-5 d-none justify-content-center align-items-center position-relative">
+        <div class=" position-absolute" id="nav-login">
+            <div class="container d-flex justify-content-lg-between py-3">
+            <h5 class="text-light">SMART LOGIN </h5>
+            <a id="lougout" class="btn btn-outline-warning">Logout</a>
+        </div>
+        </div>
+        <div class="w-60 main-color  p-5 text-center mb-3 box-shad">
+             <div id="welcomeUser" class="">
+              
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+        <script src="js/jquery-3.5.1.slim.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/indexjs.js"></script>
+</body>
+
+</html>

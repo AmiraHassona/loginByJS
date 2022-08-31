@@ -1,0 +1,47 @@
+.main-color{
+  background-color:#24353f; 
+}
+.w-60
+{
+    width: 60%;
+}
+.box-shad
+{
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+h1{
+    color: #17a2b8;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
+}
+input
+{
+    background-color: transparent !important;
+    color: #ffffff !important;
+    box-shadow: none !important;
+}
+button
+{
+    background-color: transparent !important;
+    color: #17a2b8  !important;
+    box-shadow: none !important;
+    border: 1px solid  #17a2b8 !important;
+    transition: all 0.5s;
+}
+button:hover
+{
+    background-color: #17a2b8 !important;
+    color: #fff  !important;
+}
+#nav-login
+{
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+h2{
+    color: #17a2b8;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
+}
